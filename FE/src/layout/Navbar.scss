@@ -1,0 +1,60 @@
+:root {
+  --text-color: rgb(255, 197, 21);
+  --second-text-color: white;
+}
+header {
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+li > a {
+  color: var(--second-text-color);
+  transition: 250ms;
+}
+li > a:hover {
+  color: var(--text-color);
+}
+.writes {
+  border-right: 1px solid gray;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+}
+.writes > h2 {
+  font-size: 36px;
+  color: var(--second-text-color);
+}
+.active {
+  color: var(--text-color);
+}
+ul {
+  display: flex;
+  gap: 50px;
+}
+h2 > span {
+  color: var(--text-color);
+  font-size: 40px;
+}
+.reser {
+  color: var(--text-color);
+}
+.phone {
+  padding-left: 50px;
+  border-left: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+.phone_span {
+  color: var(--second-text-color);
+}
+.writes,.phone{
+  height: 95px;
+}
